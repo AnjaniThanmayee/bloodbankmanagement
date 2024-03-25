@@ -1,0 +1,46 @@
+.blood-type-donor-table {
+    max-width: 600px;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url("/home/thanmayee/blood-donation/public/learn.jpg");
+    padding: 20px;
+    height: 590px;
+    border: 1px solid #ccc;
+  }
+  .learn-head {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .table-learn {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top:40px;
+    margin-left: 20px;
+    
+  }
+
+  .learndetails {
+    text-align: center;
+    color: #ccc;
+    margin:7px;
+  }
+  .learnbg {
+    background-color: #B22222;
+    margin-bottom: 2px;
+    
+  }
+  .learnth{
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  .learntd {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .learn-th {
+    background-color: #f2f2f2;
+  }
+  

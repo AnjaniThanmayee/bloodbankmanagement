@@ -1,0 +1,33 @@
+
+.footer-container {
+    background-color: peachpuff;
+    padding: 20px;
+    margin-bottom: 0%;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    flex-basis: 45%;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    margin-bottom: 0;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  

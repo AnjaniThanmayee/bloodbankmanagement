@@ -1,0 +1,37 @@
+.donardetailscontainer {
+    background-image: url('https://img.freepik.com/free-photo/abstract-luxury-soft-red-background-christmas-valentines-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color_1258-71575.jpg');
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.liststyle {
+    list-style-type:decimal;
+}
+
+/* Styles for the table container */
+.table-container {
+    margin: 20px;
+  }
+  
+  /* Styles for the donor table */
+  .donor-table {
+    width: 70%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .donor-table th,
+  .donor-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .donor-table th {
+    background-color: #f2f2f2;
+  }
+  

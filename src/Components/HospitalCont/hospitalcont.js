@@ -1,0 +1,59 @@
+import Hospitallist from "../Hospitallist/hospitallist"
+const bloodBankList = [
+    {
+      uniqueNo: 1,
+      imageUrl:
+        'https://content3.jdmagicbox.com/comp/guntur/dc/9999px863.x863.1232051748a6g7j1.dc/catalogue/needs-blood-bank-kotha-peta-guntur-blood-banks-77fg156.jpg',
+      name: 'Needs Blood Bank',
+      contact:'06384435215',
+      address: '2B, 1st Floor, Bose Statue Road, Kotha Peta, Guntur - 522001 '
+    },
+    {
+      uniqueNo: 2,
+      imageUrl:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Hindu_college_in_Guntur.jpg/760px-Mapcarta.jpg',
+      name: 'Lions Vision Blood Bank',
+      contact:'09115572389',
+      address:'1, Kotha Peta, Guntur - 522001'
+    },
+    {
+      uniqueNo: 3,
+      imageUrl:
+        'https://5bestincity.com/listimg/India/guntur-ap/Rainbow-Blood-Bank-Health-24-hour-blood-banks-Guntur-Andhra-Pradesh.jpg',
+      name: 'Rainboww Blood Bank',
+      contact:'06384490976',
+      address:'Upstair Kotak Mahendra Bank, Kothapet Main Road, Old Guntur, Guntur - 522001'
+    },
+    {
+      uniqueNo: 4,
+      imageUrl:
+        'data:image/jpeg;base64,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',
+      name: 'Ntr Trust Blood Bank',
+      contact:'0863-2338444',
+      address: 'Door No 12-23-33, 34, Puvada Vari Street, Kotha Peta, Guntur - 522001'
+    },
+    {
+        uniqueNo: 5,
+        imageUrl:
+          'https://images.jdmagicbox.com/comp/tenali/a8/9999p8644.8644.180721144505.m5a8/catalogue/needs-tenali-blood-bank-tenali-blood-banks-1x2l2bscev.jpg?clr=',
+        name: 'Needs Tenali Blood Bank',
+        contact:'09000319001',
+        address: 'Near health hospital Gangamma peta,Tenali - 522201 '
+      },
+      {
+        uniqueNo: 6,
+        imageUrl:
+          'https://content3.jdmagicbox.com/comp/narasaraopet/a1/9999p8647.8647.210618142750.s2a1/catalogue/vijaya-blood-bank-narasaraopet-narasaraopet-fresh-frozen-plasma-blood-banks-x4b5eqbid8.jpg?clr=',
+        name: 'Vijaya Blood Bank',
+        contact:'06384490913',
+        address: 'Arundalpet Narasaraopet Building, Arandalpet, Arundalpet, Narasaraopet - 522601 '
+      },
+  ]
+
+  const HospitalCont = () =>{
+    return(
+    <Hospitallist hospitallist = {bloodBankList}/>
+    )
+  }
+
+  export default HospitalCont

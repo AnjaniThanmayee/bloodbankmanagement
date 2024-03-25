@@ -1,0 +1,71 @@
+.route-link1 {
+  color: black;
+ font-family: 'Roboto';
+ font-size: 26px;
+ font-weight: bold;
+ text-decoration: none;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+
+.App {
+ text-align: center;
+ font-family: Arial, sans-serif;
+ height:75vh;
+ 
+}
+
+.App-header {
+ background-color: white;
+ padding: 10px;
+ font-family: cursive;
+ color: darkred;
+}
+
+.App-header h1 {
+ margin: 0;
+}
+
+.hero {
+ background-image: url('https://t3.ftcdn.net/jpg/00/67/70/40/360_F_67704008_fxdmJ8wDOqDYts9P3tzdbxqZf8NfWT21.jpg');
+ background-size: cover;
+ background-position: center;
+ padding: 80px;
+ color:black;
+ 
+}
+
+.hero-content {
+ max-width: 600px;
+ margin: 0 auto;
+}
+
+.hero-content h2 {
+ font-size: 36px;
+ margin-bottom: 20px;
+
+}
+
+.hero-content p {
+ font-size: 18px;
+ margin-bottom: 40px;
+}
+
+.donate-button {
+ background-color:gray;
+ color:black;
+ padding: 10px 20px;
+ font-size: 16px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.donate-button:hover {
+ background-color: #d32f2f;
+}
+
+.headhome {
+ color: #d32f2f;
+}

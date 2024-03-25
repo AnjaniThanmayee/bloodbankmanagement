@@ -1,0 +1,28 @@
+
+
+.place-name {
+  color: #252627;
+  font-family: 'Roboto';
+}
+
+.place-card {
+  margin: 10px;
+  border-width: 2px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: black;
+  width: 350px;
+  height: 350px;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.place-image {
+  height: 120px;
+  width: 140px;
+  border-radius: 4px;
+}
